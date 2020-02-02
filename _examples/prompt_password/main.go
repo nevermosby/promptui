@@ -18,7 +18,7 @@ func main() {
 	prompt := promptui.Prompt{
 		Label:    "Password",
 		Validate: validate,
-		Mask:     '*',
+		Mask:     ' ',
 	}
 
 	result, err := prompt.Run()
